@@ -1,0 +1,45 @@
+section {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  font-family: "Comfortaa", cursive;
+  font-family: "Roboto", sans-serif;
+  margin-top: 100px;
+}
+
+.counter {
+  text-align: center;
+  font-size: 65px;
+}
+
+.text {
+  font-weight: 700;
+  color: midnightblue;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.button-container {
+  margin-right: 20px;
+}
+
+.button-container:last-child {
+  margin-right: 0px;
+}
+
+.text {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
